@@ -45,14 +45,14 @@ function distinct(a) {
 **Experience:**\
    *(I'll add examples of projects later.)*
 
-**Education:**\
-**- 10.2018 - 04.2020 -** The School of Business of BSU  as a second higher education.\
-**- from 01.2019 -** passing online programming courses on openedu.ru, html-academy, freecodecamp.org, etc.\
-**- from 01.2020 -** reading articles on MDN Web Docs, Smashing Magazine, CSS-Trics, A List Apart, etc.\
-**- from 06.2020 -** watching online broadcasts of master classes on current IT topics.\
-**- from 09.2020 -** passing online programming courses from Rolling Scopes School.\
-**- from 01.2021 -** passing online programming courses from TechnoStream Mail.ru Group, for example: 'Internet Application Development', 'Interface design', etc.
+**Education:**
+>**10.2018 - 04.2020:** The School of Business of BSU  as a second higher education.\
+>**from 01.2019:** passing online programming courses on openedu.ru, html-academy, freecodecamp.org, etc.\
+>**from 01.2020:** reading articles on MDN Web Docs, Smashing Magazine, CSS-Trics, A List Apart, etc.\
+>**from 06.2020:** watching online broadcasts of master classes on current IT topics.\
+>**from 09.2020:** passing online programming courses from Rolling Scopes School.\
+>**from 01.2021:** passing online programming courses from TechnoStream Mail.ru Group, for example: 'Internet Application Development', 'Interface design', etc.
 
 **English:**   *A2 - Elementary*
-   - Today I understand and read technical documentation in English.\
-   - I constantly improving my level of English. I read English texts, listen English audio and watch English videos. 
+   >Today I understand and read technical documentation in English.\
+   >I constantly improving my level of English. I read English texts, listen English audio and watch English videos. 
