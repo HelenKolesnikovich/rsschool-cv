@@ -43,6 +43,9 @@ body {
   margin-left: 2rem;
   margin-bottom: 2rem;
 }
+.page--button{
+    width: 100%;            /* 1152px */
+}
 .page---frame {
   box-shadow: 5px 5px 10px rgba(21,21,21,.3),
               -5px -5px 10px rgba(21,21,21,.3);
@@ -50,6 +53,7 @@ body {
 .page--section---color-main {    
   color: #1f242f;
 }
+
 
 /* block 'title' */
 .title {
@@ -222,4 +226,39 @@ body {
   font-size: 1rem;
   text-transform: capitalize;
   font-style: italic;
+}
+
+/* block button and its elements and modifiers */
+.button {
+  width: 70%;
+  max-width: 50.375rem;       /* 806px */
+  margin: 2rem auto;
+  padding: 1.5rem;  
+  border: rgb(233,233,233);
+  border-radius: 20px;
+  background-color: rgb(241, 239, 239);
+  box-shadow: 5px 5px 5px rgb(199, 197, 197);
+  text-align: center;
+  font-size: 1.125rem;       /* 18px */
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  word-spacing: .5em;
+  color: rgb(85, 81, 81);
+  cursor: pointer;
+}
+.button:focus,
+.button:hover {
+  box-shadow: 5px 5px 5px rgb(151, 147, 147);
+  background-color: rgb(199, 197, 197);
+  color:rgb(241, 239, 239);
+}
+.button--link {
+  display: inline-block;
+  width: 90%;
+  margin: 0 auto;
+  color: rgb(85, 81, 81);
+}
+.button--link:focus,
+.button--link:hover {
+  color:rgb(241, 239, 239);
 }
