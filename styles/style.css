@@ -28,6 +28,7 @@ body {
 
 /* block 'page' with its elements and modifiers */
 .page {
+  position: relative;
   max-width: 80rem;             /* 1280px */
   margin: 0 auto;
   background-color: rgb(255,255,255);
@@ -36,7 +37,9 @@ body {
   width: 90%;
   max-width: 72rem;                 /* 1152px */
   margin: 0 auto;
-  margin-bottom: 4rem;
+  /*margin-bottom: 4rem;*/
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 .page--section-content {
   width: 90%;                   /* 1036px */
@@ -112,6 +115,7 @@ body {
   width: 100%;           /* 1152px */
   margin-top: 2rem;
   margin-left: 4rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -130,10 +134,32 @@ body {
   font-weight: bolder;
 }
 
-/* block 'top-line' */
-.top-line {
+/* total block 'strips' and its elements and modifiers */
+.strip {
+  display: inline-block;
   height: 5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.top-strip {
+  top: 0;
+}
+.bottom-strip {
+  bottom: 0;
+}
+.strip--content {
+  margin: 0;
+  padding-top: 1.5rem;
+}
+.strip---theme-light {
   background-color: rgb(233,233,233);
+}
+.strip---font-styles {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  text-align: center;
 }
 
 /* block 'header' and its elements and modifiers */
@@ -278,3 +304,5 @@ body {
   background-color: rgb(199, 197, 197);
   color:rgb(241, 239, 239);
 }
+
+/* block 'footer' and its elements and modifiers */
