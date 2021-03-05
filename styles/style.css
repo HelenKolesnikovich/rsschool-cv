@@ -142,6 +142,20 @@ body {
   flex-basis: 40%;
 }
 
+/* block link and its elements and modifiers*/
+.link__contacts {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link__contacts:hover,
+.link__contacts:focus {
+  border-bottom: 1px solid;
+}
+.link__contacts:visited {
+  color: rgb(182, 181, 181);
+}
+
 /*block 'list' and its elements and modofiers */
 .list {
   width: 100%;          /* 1036px */
