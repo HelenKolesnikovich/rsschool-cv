@@ -125,6 +125,41 @@
 				</div>
 			</section>
 			<section class="page_color-main">
+				<h2 class="text__title text_color-light">Code examples</h2>
+				<div class="page__section-content">
+					<div class="task__wrapper">
+						<p class="task__condition text__figcaption task_background-dark task_color-light text_text-bolder">Remove duplicates from list:</p>
+						<div class="task__code task_font-italic">
+							<pre><code>
+function distinct(a) {
+ for(let i = 0; i &lt; a.length; i++) {
+  for(let j = i+1; j &lt; a.length; ) {
+   if(a[i] === a[j]) {
+    a.splice(j, 1);
+    j = j;
+   } else { j++; }
+  }
+ }
+ return a;
+}
+							</code></pre>
+						</div>
+					</div>
+					<div class="task__wrapper">
+						<p class="task__condition text__figcaption task_background-dark task_color-light text_text-bolder">Filter an array of values ​​by parameter values:</p>
+						<div class="task__code task_font-italic">
+							<pre><code>
+function filterRange(arr, a, b) {
+ let filteredArray = arr.filter(item =&gt; (item &gt; a && item &lt; b));
+ return &#x60;initial array: ${arr}; filtered array: ${filteredArray};&#x60;;
+}
+							</code></pre>
+						</div>
+					</div>
+						
+				</div>
+			</section>
+			<section class="page_color-main">
 				<h2 class="text__title text_color-light">Further information</h2> 
 				<div class="page__section-content page__last-section">
 					<p class="text__line">Hello! My name is Elena Kolesnikovich. I have been studying in IT since 2018. Today I have a common view about different aspects in IT.</p>
